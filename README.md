@@ -60,12 +60,16 @@
    3. Génération d’un fichier examples.json avec dumpdata (le paramètre --indent 4 permet de formater avec des espacements) `python manage.py dumpdata collec_management.Collec --indent 4 > collec_management/fixtures/examples.json`
    4. on peut maintenant charger ces données avec `python manage.py loaddata examples`   
 
-   ## Commandes Django Utilisées pour la Question 5
+## Commandes Django Utilisées pour la Question 5
 
    1. Création de la vue **collection** dans `collec_management/views.py`.
    2. Définir l'URL dans `collec_management/urls.py` pour accéder à la vue avec `path("collection/<int:n>", views.collection, name ="collection")`
    3. Création de la template `collection.html` dans le répertoire `collec_management/templates/`
 
-   
 
+ ## Commandes Django Utilisées pour la Question 6
+
+   1. Création de la vue **collec_list** dans `collec_management/views.py`.
+   2. Définir l'URL dans `collec_management/urls.py` pour accéder à la vue avec `path ("all", views.colleclist , name ="colleclist"),`
+   3. Création de la template `collec_list.html` dans le répertoire `collec_management/templates/`
    
