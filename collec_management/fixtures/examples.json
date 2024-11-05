@@ -1,0 +1,110 @@
+[
+{
+    "model": "collec_management.collec",
+    "pk": 1,
+    "fields": {
+        "title": "Collection de Livres Anciens",
+        "description": "Une collection d'ouvrages rares du XIXe siècle.",
+        "date": "2022-05-10"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 2,
+    "fields": {
+        "title": "Vinyles Classiques",
+        "description": "Disques vinyles de musique classique.",
+        "date": "2023-03-15"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 3,
+    "fields": {
+        "title": "Photographies de Voyage",
+        "description": "Photos prises au cours de divers voyages.",
+        "date": "2021-08-01"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 4,
+    "fields": {
+        "title": "Artisanat Berbère",
+        "description": "Objets d'artisanat du Maroc.",
+        "date": "2023-09-03"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 5,
+    "fields": {
+        "title": "Films Cultes des Années 80",
+        "description": "DVD et VHS de films des années 80.",
+        "date": "2022-07-20"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 6,
+    "fields": {
+        "title": "Collection de Timbres",
+        "description": "Timbres de plusieurs pays d'Europe.",
+        "date": "2020-06-30"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 7,
+    "fields": {
+        "title": "Cartes Postales du Monde",
+        "description": "Cartes postales collectées depuis 1950.",
+        "date": "2024-01-15"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 8,
+    "fields": {
+        "title": "Objets Vintage",
+        "description": "Divers objets rétro et vintage.",
+        "date": "2023-10-10"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 9,
+    "fields": {
+        "title": "Collection de Minéraux",
+        "description": "Des pierres et minéraux de différentes régions.",
+        "date": "2022-11-05"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 10,
+    "fields": {
+        "title": "Sculptures Modernes",
+        "description": "Sculptures d'artistes contemporains.",
+        "date": "2023-04-18"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 11,
+    "fields": {
+        "title": "Livres de Cuisine Internationale",
+        "description": "Livres de recettes du monde entier.",
+        "date": "2021-12-25"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 12,
+    "fields": {
+        "title": "Monnaies Anciennes",
+        "description": "Pièces de monnaie historiques.",
+        "date": "2020-03-12"
+    }
+}
+]
