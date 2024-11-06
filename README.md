@@ -72,4 +72,11 @@
    1. Création de la vue **collec_list** dans `collec_management/views.py`.
    2. Définir l'URL dans `collec_management/urls.py` pour accéder à la vue avec `path ("all", views.colleclist , name ="colleclist"),`
    3. Création de la template `collec_list.html` dans le répertoire `collec_management/templates/`
-   
+
+
+ ## Commandes Django Utilisées pour la Question 7
+
+   1. Création du fichier forms.py dans le repertoire `collec_management/` 
+   2. Création de la vue **new_collec** dans `collec_management/views.py`.
+   3. Définir l'URL dans `collec_management/urls.py` pour accéder à la vue avec `path('new', views.new_collec, name='new_collec'),`
+   4. Création de la template `new_collec.html` dans le répertoire `collec_management/templates/`
