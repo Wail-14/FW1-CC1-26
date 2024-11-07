@@ -86,3 +86,10 @@
    1. Création de la vue **delete_collec** dans `collec_management/views.py`.
    2. Définir l'URL dans `collec_management/urls.py` pour accéder à la vue avec `path('delete/<int:n>', views.delete_collec, name='delete_collec'),`
    3. Création de la template `delete_collec.html` dans le répertoire `collec_management/templates/`
+
+## Commandes Django Utilisées pour la Question 9
+
+   1. Création de la vue **edit_collec** dans `collec_management/views.py`.
+   2. Définir l'URL dans `collec_management/urls.py` pour accéder à la vue avec `path('change/<int:n>/', views.edit_collec, name='edit_collec'),`
+   3. Création de la template `edit_collec.html` dans le répertoire `collec_management/templates/`
+   4. ajout de deux balises, `<th>` et `<td>` dans `collec_management/templates/collec_list.html` permettants de modifier chaque collections

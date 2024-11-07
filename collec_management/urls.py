@@ -7,4 +7,6 @@ urlpatterns = [
     path ("all", views.colleclist , name ="colleclist"),
     path('new', views.new_collec, name='new_collec'),
     path('delete/<int:n>', views.delete_collec, name='delete_collec'),
+    path('change/<int:n>/', views.edit_collec, name='edit_collec'),
+
 ]
