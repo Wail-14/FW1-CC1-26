@@ -80,3 +80,9 @@
    2. Création de la vue **new_collec** dans `collec_management/views.py`.
    3. Définir l'URL dans `collec_management/urls.py` pour accéder à la vue avec `path('new', views.new_collec, name='new_collec'),`
    4. Création de la template `new_collec.html` dans le répertoire `collec_management/templates/`
+
+## Commandes Django Utilisées pour la Question 8
+
+   1. Création de la vue **delete_collec** dans `collec_management/views.py`.
+   2. Définir l'URL dans `collec_management/urls.py` pour accéder à la vue avec `path('delete/<int:n>', views.delete_collec, name='delete_collec'),`
+   3. Création de la template `delete_collec.html` dans le répertoire `collec_management/templates/`

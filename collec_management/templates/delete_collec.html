@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Supprimer la collection</title>
+</head>
+<body>
+    <h1>Supprimer la collection : {{ collec.title }}</h1>
+    <p>Êtes-vous sûr de vouloir supprimer cette collection ?</p>
+
+    <form method="post" action="{% url 'delete_collec' collec.id %}">
+        {% csrf_token %}
+        <button type="submit">Confirmer la suppression</button>
+    </form>
+
+    <a href="{% url 'colleclist' %}">Annuler</a>
+</body>
+</html>
