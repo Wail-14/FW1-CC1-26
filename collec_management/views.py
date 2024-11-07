@@ -41,3 +41,15 @@ def delete_collec(request, n):
         collec.delete()
         return redirect('colleclist')
     return render(request, 'delete_collec.html', {'collec': collec})
+
+def edit_collec(request, n):
+    collec = get_object_or_404(Collec, id=n)
+
+    if request.method == "POST":
+        form = CollecForm(request.POST, instance=collec)
+        if form.is_valid():
+            form.save()
+            return redirect('colleclist')
+    else:
+        form = CollecForm(instance=collec)
+    return render(request, 'edit_collec.html', {'form': form, 'collec': collec})
