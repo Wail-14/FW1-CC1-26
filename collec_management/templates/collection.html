@@ -6,8 +6,19 @@
     <title>Détails de la Collection</title>
 </head>
 <body>
-    <h1>{{ collection.title }}</h1>
-    <p>Description : {{ collection.description }}</p>
-    <p>Date de création : {{ collection.date }}</p>
+    {% extends "menu.html" %}
+    {% block title %}Détails de la Collection{% endblock %}
+    {% block content %}
+        <div class="container mt-4">
+            <h2 class="text-center">{{ collection.title }}</h2>
+            <div class="border p-3 mt-3">
+                <p><strong>Description :</strong> {{ collection.description }}</p>
+                <p><strong>Date de création :</strong> {{ collection.date }}</p>
+            </div>
+            <div class="text-center mt-3">
+                <a href="{% url 'colleclist' %}" class="btn btn-secondary">Retour à la liste</a>
+            </div>
+        </div>
+    {% endblock %}
 </body>
 </html>

@@ -6,9 +6,16 @@
     <title>À propos de l'application</title>
 </head>
 <body>
-    <h1>Présentation de notre application :</h1>
-    <p>Ceci est une application de gestion de collections.</p>
-    <p>Notre application est créée à partir de Django et Bootstrap.</p>
-    <p>Elle permet de gérer divers types de collections.</p>
+    {% extends "menu.html" %}
+    {% block title %}À propos{% endblock %}
+    {% block content %}
+        <div class="text-center">
+            <h1 class="display-4 text-primary mb-4">Présentation de notre application</h1>
+            <p class="lead">Ceci est une application de gestion de collections.</p>
+            <p>Notre application utilise Django et Bootstrap pour offrir une interface élégante et fonctionnelle.</p>
+            <p>Elle permet de gérer divers types de collections de manière intuitive.</p>
+        </div>
+    {% endblock %}
+
 </body>
 </html>
