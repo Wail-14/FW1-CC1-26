@@ -93,3 +93,12 @@
    2. Définir l'URL dans `collec_management/urls.py` pour accéder à la vue avec `path('change/<int:n>/', views.edit_collec, name='edit_collec'),`
    3. Création de la template `edit_collec.html` dans le répertoire `collec_management/templates/`
    4. ajout de deux balises, `<th>` et `<td>` dans `collec_management/templates/collec_list.html` permettants de modifier chaque collections
+
+## Commandes Django Utilisées pour la Question 10
+
+   1. Création de `menu.html` dans `collec_management/templates/`
+   2. Création de `home.html` dans `collec_management/templates/`
+   3. Création de la vue **home** dans `collec_management/views.py`.
+   4. Définir l'URL dans `cc/urls.py` pour accéder a la vue home depuis la racine`path('', views.home, name='home'),`
+   5. Ajout dans chaque template concerné des blocks d'heritage de `menu.html`
+   6. Amelioration de l’esthétique  de toutes les templates avec Bootstrap

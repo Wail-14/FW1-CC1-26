@@ -5,14 +5,19 @@
     <title>Supprimer la collection</title>
 </head>
 <body>
-    <h1>Supprimer la collection : {{ collec.title }}</h1>
-    <p>Êtes-vous sûr de vouloir supprimer cette collection ?</p>
+    {% extends "menu.html" %}
+    {% block title %}À propos{% endblock %}
+    {% block content %}
+        <div class="text-center mt-4">
+            <h1 class="text-primary">Supprimer la collection : {{ collec.title }}</h1>
+            <p class="lead">Êtes-vous sûr de vouloir supprimer cette collection ?</p>
 
-    <form method="post" action="{% url 'delete_collec' collec.id %}">
-        {% csrf_token %}
-        <button type="submit">Confirmer la suppression</button>
-    </form>
-
-    <a href="{% url 'colleclist' %}">Annuler</a>
+            <form method="post" action="{% url 'delete_collec' collec.id %}">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-danger">Confirmer la suppression</button>
+                <a href="{% url 'colleclist' %}" class="btn btn-secondary ms-2">Annuler</a>
+            </form>
+        </div>
+    {% endblock %}
 </body>
 </html>
